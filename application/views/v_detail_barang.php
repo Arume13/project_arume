@@ -54,23 +54,6 @@
 					</div>
 				</div>
 				<?php echo form_close(); ?>
-
-				<div class="mt-4 product-share">
-					<a href="#" class="text-gray">
-						<i class="fab fa-facebook-square fa-2x"></i>
-					</a>
-					<a href="#" class="text-gray">
-						<i class="fab fa-twitter-square fa-2x"></i>
-					</a>
-					<a href="#" class="text-gray">
-						<i class="fas fa-envelope-square fa-2x"></i>
-					</a>
-					<a href="#" class="text-gray">
-						<i class="fas fa-rss-square fa-2x"></i>
-					</a>
-					
-				</div>
-
 			</div>
 		</div>
 

@@ -47,6 +47,7 @@
 							<p class="text-muted text-sm"><b>Kategori : </b><?= $value->nama_kategori ?></p>
 						</div>
 						<div class="card-body pt-0">
+						<a href="<?= base_url('home/detail_barang/' . $value->id_barang)  ?>">
 							<div class="row">
 								<div class="col-12 text-center">
 									<img src="<?= base_url('assets/gambar/' . $value->gambar) ?>" class="img-fluid" width="250px">
@@ -62,9 +63,6 @@
 								</div>
 								<div class="col-sm-6">
 									<div class="text-right">
-										<a href="<?= base_url('home/detail_barang/' . $value->id_barang)  ?>" class="btn btn-sm btn-success">
-											<i class="fas fa-eye"></i>
-										</a>
 										<button type="submit" class="btn btn-sm btn-primary swalDefaultSuccess">
 											<i class="fas fa-cart-plus"> Add</i>
 										</button>

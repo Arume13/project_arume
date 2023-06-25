@@ -10,9 +10,9 @@
 <style>
 .main-footer {
 	clear: both;
-    position: bottom;
+    position: end;
     height: 100%;
-    margin-top: 841px;
+    margin-top: 500px;
 }
 </style>
 <footer class="main-footer">

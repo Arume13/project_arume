@@ -4,7 +4,7 @@
 	<a href="<?= base_url('admin') ?>" class="brand-link">
 		<i class="fas fa-store"></i>
 		<span class="brand-text font-weight-light">
-		Arume Shop
+		Daily Apparel
 		</span>
 	</a>
 
@@ -49,7 +49,7 @@
 					<a href="<?= base_url('barang')  ?>" class="nav-link <?php if ($this->uri->segment(1) == 'barang') {
 						echo "active";
 						} ?>">
-						<i class="nav-icon fas  fa-birthday-cake"></i>
+						<i class="nav-icon fas  fa-shopping-basket"></i>
 						<p> Barang </p>
 					</a>
 				</li>

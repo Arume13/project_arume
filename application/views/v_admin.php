@@ -22,7 +22,7 @@
 			<p>Total Barang</p>
 		</div>
 		<div class="icon">
-			<i class="fas  fa-birthday-cake"></i>
+			<i class="fas  fa-shopping-basket"></i>
 		</div>
 		<a href="<?= base_url('barang') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
 	</div>

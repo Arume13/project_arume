@@ -7,16 +7,13 @@
 	</ol>
 	<div class="carousel-inner">
 		<div class="carousel-item active">
-			<img class="d-block w-100" src="<?= base_url() ?>assets/slider/slider1.jpg">
+			<img class="d-block w-100"  src="<?= base_url() ?>assets/slider/123.jpg">
 		</div>
 		<div class="carousel-item">
-			<img class="d-block w-100" src="<?= base_url() ?>assets/slider/slider2.jpg">
+			<img class="d-block w-100"  src="<?= base_url() ?>assets/slider/1234.jpg">
 		</div>
 		<div class="carousel-item">
-			<img class="d-block w-100" src="<?= base_url() ?>assets/slider/slider3.jpg">
-		</div>
-		<div class="carousel-item">
-			<img class="d-block w-100" src="<?= base_url() ?>assets/slider/slider4.jpg">
+			<img class="d-block w-100" src="<?= base_url() ?>assets/slider/12345.jpg">
 		</div>
 	</div>
 	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -52,6 +49,7 @@
 						<div class="card-body pt-0">
 							<div class="row">
 								<div class="col-12 text-center">
+								<a href="<?= base_url('home/detail_barang/' . $value->id_barang)  ?>">
 									<img src="<?= base_url('assets/gambar/' . $value->gambar) ?>" width="300px" height="250px">
 								</div>
 							</div>
@@ -65,9 +63,6 @@
 								</div>
 								<div class="col-sm-6">
 									<div class="text-right">
-										<a href="<?= base_url('home/detail_barang/' . $value->id_barang)  ?>" class="btn btn-sm btn-success">
-											<i class="fas fa-eye"></i>
-										</a>
 										<button type="submit" class="btn btn-sm btn-primary swalDefaultSuccess">
 											<i class="fas fa-cart-plus"> Add</i>
 										</button>

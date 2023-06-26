@@ -6,7 +6,7 @@
 			<span class="brand-text font-weight-light text-white">
 
 			<b>
-			Arume Shop
+			Daily Apparel
 			</b>
 			
 			</span>
@@ -152,7 +152,7 @@
       </div>
       <div class="modal-body">
         <p>WA    : 0812345678</p>
-		<p>EMAIL : kepokankamuh@gmail.com</p>
+		<p>EMAIL : Dailyapparel@gmail.com</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -172,7 +172,7 @@
 				</div><!-- /.col -->
 				<div class="col-sm-6">
 					<ol class="breadcrumb float-sm-right">
-						<li class="breadcrumb-item"><a href="">Arume</a></li>
+						<li class="breadcrumb-item"><a href="">Daily Apparel</a></li>
 						<li class="breadcrumb-item"><a href=""><?= $title ?></a></li>
 					</ol>
 				</div><!-- /.col -->

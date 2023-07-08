@@ -7,15 +7,7 @@
 <!-- /.control-sidebar -->
 
 <!-- Main Footer -->
-<style>
-.main-footer {
-	clear: both;
-    position: end;
-    height: 100%;
-    margin-top: 500px;
-}
-</style>
-<footer class="main-footer">
+<footer class="main-footer fixed-bottom">
 	<!-- To the right -->
 	
 	<!-- Default to the left -->

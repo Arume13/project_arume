@@ -28,8 +28,8 @@
 
 
 
-<div class="card card-solid">
-	<div class="card-body pb-0">
+<div class="card card-solid mb-5">
+	<div class="card-body pb-0 mb-5">
 		<div class="row">
 			<?php foreach ($barang as $key => $value) { ?>
 				<div class="col-sm-4">

@@ -61,6 +61,7 @@
 									<?php if ($value->status_bayar == 1) { ?>
 										<button class="btn btn-sm btn-success btn-flat" data-toggle="modal" data-target="#cek<?= $value->id_transaksi ?>">Cek Bukti Bayar</button>
 										<a href="<?= base_url('admin/proses/' . $value->id_transaksi) ?>" class="btn btn-sm btn-flat btn-primary">Proses</a>
+										<a href="<?= base_url('admin/verifikasi/' . $value->id_transaksi) ?>" class="btn btn-sm btn-flat btn-warning">Verifikasi</a>
 									<?php } ?>
 
 								</td>

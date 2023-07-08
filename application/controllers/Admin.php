@@ -108,6 +108,18 @@ class Admin extends CI_Controller
 		redirect('admin/pesanan_masuk');
 	}
 
+	public function verifikasi($id_transaksi)
+	{
+		$data = array(
+			'id_transaksi' => $id_transaksi,
+			'status_order' => '0',
+			'status_bayar' => '0'
+		);
+		$this->m_pesanan_masuk->update_order($data);
+		$this->session->set_flashdata('pesan', 'Verifikasi ulang !!!');
+		redirect('admin/pesanan_masuk');
+	}
+
 	public function kirim($id_transaksi)
 	{
 		$data = array(

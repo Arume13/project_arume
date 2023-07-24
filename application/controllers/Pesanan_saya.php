@@ -61,7 +61,7 @@ class Pesanan_saya extends CI_Controller
 					'bukti_bayar'	=> $upload_data['uploads']['file_name'],
 				);
 				$this->m_transaksi->upload_buktibayar($data);
-				$this->session->set_flashdata('pesan', 'Bukti Pembayaran Berhasil Di Upload !!!');
+				// $this->session->set_flashdata('pesan', 'Bukti Pembayaran Berhasil Di Upload !!!');
 				redirect('pesanan_saya');
 			}
 		}
@@ -85,4 +85,16 @@ class Pesanan_saya extends CI_Controller
 		$this->session->set_flashdata('pesan', 'Pesanan Telah diterima !!!');
 		redirect('pesanan_saya');
 	}
-}
+
+	public function submit($id_transaksi)
+	{
+				$data = array(
+					'id_transaksi' => $id_transaksi,
+					'status_bayar' => '1',
+				);
+				$this->m_transaksi->upload_buktibayar($data);
+				// $this->session->set_flashdata('pesan', 'Bukti Pembayaran Berhasil Di Upload !!!');
+				redirect('pesanan_saya');
+			}
+		}
+	
